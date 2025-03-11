@@ -151,23 +151,6 @@ gcc output.c -o myprogram
 
 ---
 
-## Advanced Usage
-
-### Debugging Braincrap Code
-
-If your Braincrap program isn't working as expected, you can:
-1. Check if macros are expanding correctly by manually replacing them.
-2. Verify that included files exist and contain valid Brainfuck code.
-3. Inspect the generated C code (`output.c`) for any syntax errors.
-
-### Optimizing Braincrap Code
-
-- **Reduce unnecessary loops**: Avoid excessive loops that do nothing.
-- **Use macros for readability**: Instead of repeating Brainfuck code, define macros.
-- **Modularize with file inclusion**: Break large programs into smaller, reusable files.
-
----
-
 ## Contributing
 
 Braincrap is an open-source project, and contributions are highly encouraged! There are many ways you can help improve Braincrap:
